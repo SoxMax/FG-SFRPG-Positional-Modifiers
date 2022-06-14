@@ -11,7 +11,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://forge.fantasygrounds.com/ \r Starfinder Positional Modifiers \r Modifies attacks based on the target's location" font="emotefont" />
+	<announcement text="https://forge.fantasygrounds.com/shop/items/686/view \r Starfinder Positional Modifiers \r Modifies attacks based on the target's location" font="emotefont" />
 	
 	<base>
 		<script name="ActionAttackRanged" file="scripts/manager_action_attack_ranged.lua" />
