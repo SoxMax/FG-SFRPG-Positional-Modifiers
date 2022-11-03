@@ -102,7 +102,7 @@ local function modRangedAttack(rSource, rTarget, rRoll)
 					local tMsg = {sender = "", font = "emotefont", mood = "ooc"}
 					local nMaxRange = maxIncrements * weaponRange;
 					local weaponName = StringManager.trim(string.match(rRoll.sDesc, "%]([^%[]*)"))
-					tMsg.text = "Target " .. rTarget.sName .. " at range " .. nDistanceBetweenTokens .. " is beyond " .. weaponName "'s max range of " .. nMaxRange
+					tMsg.text = "Target " .. rTarget.sName .. " at range " .. nDistanceBetweenTokens .. " is beyond " .. weaponName .. "'s max range of " .. nMaxRange .. "!"
 					Comm.deliverChatMessage(tMsg)
 				end
 				local rangePenalty = -2
