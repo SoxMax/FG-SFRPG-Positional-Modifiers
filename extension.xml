@@ -2,7 +2,7 @@
 <root version="3.3">
 	<properties>
 		<name>Feature: Starfinder Positional Modifiers</name>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<author>SoxMax</author>
 		<description>Modifies attacks based on the target's location</description>
 		<loadorder>50</loadorder>
